@@ -22,6 +22,7 @@ Checking if detected people are within the ROI.
 #### Output Section
 The output section displays the number of people detected within the ROI on the video frame.
 
+![Output Screenshot](scrrrrrrrrrrrrren.png)
 
 
 
