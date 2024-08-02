@@ -1,27 +1,28 @@
-# people-counting-yolo
+# People Counting in a Video
 
-This script is designed to count the number of people in a given video using the YOLOv5 object detection model and OpenCV. The detection is performed within a designated region of interest (ROI) in the video.
+This script is designed to count the number of people in a given video using the YOLOv5 object detection model and OpenCV. It focuses on detecting people within a designated region of interest (ROI).
 
-Used Libraries
-OpenCV: For video processing and image manipulation.
-NumPy: For numerical operations.
-PyTorch: For loading and utilizing the YOLOv5 model.
-Code Explanation
+## Used Libraries
+
+OpenCV
+NumPy
+PyTorch
+## Code Explanation
+
 Inputs Section
-The input section includes:
+The input section includes the video source and the loading of the YOLOv5 model from the PyTorch hub.
 
-Video Source: The path or source of the input video.
-Model Loading: The YOLOv5 model is loaded from the PyTorch hub for object detection.
 Logic Section
-The logic section contains:
+This section contains the main logic for:
 
-Region of Interest (ROI): Drawing the ROI on the video frame.
-Person Detection: Using YOLOv5 to detect people within the frame.
-ROI Check: Verifying if the detected people are within the ROI.
+Drawing the region of interest (ROI).
+Detecting people using YOLOv5.
+Checking if detected people are within the ROI.
 Output Section
-The output section:
+The output section displays the number of people detected within the ROI on the video frame.
 
-Display: Shows the number of people detected within the ROI on the video frame.
-Image
-(Include any relevant images or screenshots here)
+
+
+
+
 
